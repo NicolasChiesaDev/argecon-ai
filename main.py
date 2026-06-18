@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # main.py
 
 from fastapi import FastAPI, HTTPException
@@ -210,7 +210,7 @@ def _formatear_datos_para_llm(datos: dict) -> str:
 async def frontend():
     """Sirve el frontend HTML. Lo construimos en el próximo paso."""
     with open("frontend/index.html", "r", encoding="utf-8") as f:
-=======
+        return f.read()
 # main.py
 
 from fastapi import FastAPI, HTTPException
@@ -422,5 +422,4 @@ def _formatear_datos_para_llm(datos: dict) -> str:
 async def frontend():
     """Sirve el frontend HTML. Lo construimos en el próximo paso."""
     with open("frontend/index.html", "r", encoding="utf-8") as f:
->>>>>>> dcebf359ab00daafb3fcfaa42f31ca7a1d37d74a
         return f.read()
