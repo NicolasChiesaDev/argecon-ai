@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # 🇦🇷 ArgEcon AI — Monitor Económico Argentino con IA
 
 Agente de análisis económico en tiempo real que consume APIs públicas argentinas
